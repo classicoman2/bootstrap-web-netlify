@@ -3,7 +3,9 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+$body-bg: pink;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
@@ -11,8 +13,4 @@
   width: 340px;
 }
 
-@media (max-width: 600px) {
-  .logo {
-    width: 409px;
-  }
-}
+
